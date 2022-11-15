@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
+  position: fixed;
   width: 100%;
   height: 5rem;
   padding: 1rem 3rem;
@@ -9,6 +10,10 @@ export const Container = styled.div`
   justify-content: space-between;
   align-items: center;
   background: var(--color-7);
+
+  a {
+    color: var(--color-1);
+  }
 
   img {
     width: 100%;

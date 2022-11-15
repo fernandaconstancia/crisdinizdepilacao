@@ -16,12 +16,16 @@ export const Container = styled.div`
     padding: 0 9rem;
   }
 
+  @media (min-width: 1300px) {
+    padding: 0 15rem;
+  }
+
   h1 {
     font-size: 2rem;
     margin-bottom: 1rem;
 
     @media (min-width: 1024px) {
-      font-size: 2.5rem;
+      font-size: 3rem;
     }
   }
 `;
@@ -32,6 +36,11 @@ export const Content = styled.div`
 
   p {
     margin-bottom: 1.2rem;
+
+    @media (min-width: 1024px) {
+      font-size: 2.3rem;
+      margin-bottom: 2rem;
+    }
   }
 
   button {
@@ -42,11 +51,18 @@ export const Content = styled.div`
     font-size: 1.3rem;
     border-radius: 8px;
     background: var(--color-1);
-    color: var(--color-8);
 
     &:hover {
       opacity: 0.5;
       cursor: pointer;
+    }
+
+    @media (min-width: 1024px) {
+      font-size: 2.5rem;
+    }
+
+    a {
+      color: var(--color-8);
     }
   }
 `;
@@ -58,8 +74,37 @@ export const BoxSocial = styled.div`
   align-items: center;
   justify-content: center;
 
-  svg {
+  a {
     width: 20%;
-    font-size: 1.5rem;
+
+    svg {
+      font-size: 1.5rem;
+
+      &:hover {
+        opacity: 0.5;
+        cursor: pointer;
+      }
+
+      @media (min-width: 1024px) {
+        font-size: 2.8rem;
+      }
+    }
+  }
+`;
+
+export const Footer = styled.footer`
+  width: 100%;
+
+  text-align: center;
+
+  color: var(--color-1);
+
+  div {
+    width: 100%;
+    height: 1px;
+    margin-bottom: 15px;
+
+    background: var(--color-1);
+    opacity: 0.5;
   }
 `;

@@ -8,6 +8,7 @@ export const GlobalStyle = createGlobalStyle`
     border: none;
     font-family: "Ubuntu", Helvetica, Sans-Serif;
     list-style: none;
+    text-decoration: none;
   }
 
   html, body {

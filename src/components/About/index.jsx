@@ -6,6 +6,7 @@ import Item from "../../assets/butterfly.svg";
 export const About = () => {
   return (
     <S.Container>
+      <a name="about" />
       <h1>Sobre Nós</h1>
       <S.BoxPerfil>
         <img src={Perfil} alt="Perfil" />
