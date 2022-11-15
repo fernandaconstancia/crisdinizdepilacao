@@ -43,7 +43,7 @@ export const Content = styled.div`
     }
 
     @media (min-width: 1400px) {
-      font-size: 5rem;
+      font-size: 4rem;
       margin-bottom: 1.5rem;
     }
   }
@@ -61,7 +61,7 @@ export const Content = styled.div`
     }
 
     @media (min-width: 1400px) {
-      font-size: 3.5rem;
+      font-size: 2.7rem;
       margin-bottom: 1rem;
     }
   }
@@ -79,7 +79,7 @@ export const Content = styled.div`
     }
 
     @media (min-width: 1400px) {
-      font-size: 3.5rem;
+      font-size: 2.7rem;
       margin-bottom: 2.5rem;
     }
   }
@@ -89,7 +89,7 @@ export const Content = styled.div`
 
     font-size: 0.7rem;
     padding: 10px;
-    border-radius: 3px;
+    border-radius: 8px;
     background: var(--color-1);
     color: var(--color-8);
 
@@ -107,7 +107,7 @@ export const Content = styled.div`
     }
 
     @media (min-width: 1400px) {
-      font-size: 3.5rem;
+      font-size: 3rem;
     }
   }
 `;

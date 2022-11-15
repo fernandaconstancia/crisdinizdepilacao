@@ -2,7 +2,6 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   width: 100%;
-  /* padding: 0 9rem; */
 
   display: flex;
   flex-direction: column;
@@ -12,7 +11,7 @@ export const Container = styled.div`
 
   color: var(--color-2);
 
-  @media (min-width: 768px) {
+  @media (min-width: 520px) {
     padding: 0 9rem;
   }
 

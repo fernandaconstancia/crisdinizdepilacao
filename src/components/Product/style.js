@@ -2,7 +2,6 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   width: 100%;
-  padding: 0 9rem;
 
   display: flex;
   flex-direction: column;
@@ -11,6 +10,10 @@ export const Container = styled.div`
   align-items: center;
 
   color: var(--color-2);
+
+  @media (min-width: 768px) {
+    padding: 0 9rem;
+  }
 
   h1 {
     font-size: 2rem;
@@ -29,7 +32,11 @@ export const BoxProduct = styled.section`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: baseline;
+  align-items: center;
+
+  @media (min-width: 768px) {
+    align-items: baseline;
+  }
 
   @media (min-width: 768px) {
     flex-wrap: wrap;

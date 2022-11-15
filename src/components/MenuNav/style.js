@@ -38,9 +38,5 @@ export const Nav = styled.div`
       padding: 0 10px;
       font-size: 1.2rem;
     }
-
-    @media (min-width: 1400px) {
-      font-size: 2rem;
-    }
   }
 `;
