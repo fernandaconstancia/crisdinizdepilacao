@@ -1,3 +1,5 @@
+import Face from "../../assets/imageface.svg";
+
 import * as S from "./style";
 
 export const Home = () => {
@@ -9,6 +11,9 @@ export const Home = () => {
         <span>É investimento!</span>
         <button>Agende seu atendimento</button>
       </S.Content>
+      <div>
+        <img src={Face} alt="Face" />
+      </div>
     </S.Container>
   );
 };

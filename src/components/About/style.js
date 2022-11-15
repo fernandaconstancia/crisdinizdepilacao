@@ -11,7 +11,7 @@ export const Container = styled.div`
 
   color: var(--color-2);
 
-  @media (min-width: 520px) {
+  @media (min-width: 768px) {
     padding: 0 9rem;
   }
 
