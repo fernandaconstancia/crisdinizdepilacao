@@ -7,11 +7,8 @@ export const Nav = styled.div`
   position: fixed;
   width: 100%;
   height: 5rem;
-  padding: 1rem 3rem;
-  /* width: 100%; */
-  /* height: 90px; */
+  padding: 1rem 1.5rem;
   border-bottom: 2px solid #f1f1f1;
-  /* padding: 0 20px; */
   display: flex;
   justify-content: space-between;
   align-items: center;

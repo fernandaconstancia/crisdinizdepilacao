@@ -6,8 +6,8 @@ const NavBurguer = styled.div`
   width: 2rem;
   height: 2rem;
   position: fixed;
-  top: 30px;
-  right: 20px;
+  top: 23px;
+  right: 22px;
 
   z-index: 20;
   display: none;
