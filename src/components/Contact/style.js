@@ -112,6 +112,7 @@ export const Footer = styled.footer`
   p {
     a {
       color: var(--color-1);
+      padding-bottom: 1rem;
     }
   }
 `;
