@@ -76,6 +76,7 @@ export const BoxSocial = styled.div`
 
   a {
     width: 20%;
+    color: var(--color-1);
 
     svg {
       font-size: 1.5rem;
@@ -106,5 +107,11 @@ export const Footer = styled.footer`
 
     background: var(--color-1);
     opacity: 0.5;
+  }
+
+  p {
+    a {
+      color: var(--color-1);
+    }
   }
 `;
